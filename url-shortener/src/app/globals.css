@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+  background: "hsl(255, 18%, 22%)";
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.bg-boost {
+  background: url('../../public/images/bg-boost-desktop.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
