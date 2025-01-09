@@ -18,6 +18,8 @@ export default function Home() {
         body: JSON.stringify({ url }),
       });
 
+      setShortenedUrl("hi")
+
       console.log(response);
     } catch (err) {
       setError("Error happened");
